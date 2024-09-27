@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://ca2m38o5m66gu"]
+
+[ext_resource type="PackedScene" uid="uid://cyoxdygauvgk5" path="res://scenes/cards/card_template.tscn" id="1_xkmpr"]
+
+[node name="battle" type="Node2D"]
+
+[node name="Control" parent="." instance=ExtResource("1_xkmpr")]
+offset_left = 213.0
+offset_top = 405.0
+offset_right = 215.0
+offset_bottom = 405.0
+
+[node name="Control2" parent="." instance=ExtResource("1_xkmpr")]
+offset_left = 448.0
+offset_top = 405.0
+offset_right = 450.0
+offset_bottom = 405.0
+
+[node name="Control3" parent="." instance=ExtResource("1_xkmpr")]
+offset_left = 330.0
+offset_top = 405.0
+offset_right = 332.0
+offset_bottom = 405.0

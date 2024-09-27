@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=4 uid="uid://cyoxdygauvgk5"]
+[gd_scene load_steps=11 format=4 uid="uid://cyoxdygauvgk5"]
 
 [ext_resource type="Texture2D" uid="uid://5ki14j4l6amj" path="res://assets/cards.png" id="1_yfkan"]
 [ext_resource type="Texture2D" uid="uid://c3ug4fo0ywty5" path="res://assets/bg.png" id="2_jiic6"]
 [ext_resource type="Texture2D" uid="uid://6wfq1luoowfn" path="res://assets/moldura01.png" id="2_ud6ll"]
 [ext_resource type="Texture2D" uid="uid://bj8qb6d48pw1h" path="res://assets/moldura03.png" id="3_fdplk"]
+[ext_resource type="Texture2D" uid="uid://bknpypx2s64rq" path="res://assets/Soldier-Idle.png" id="5_y076o"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_cgrts"]
 light_mode = 2
@@ -144,3 +145,8 @@ tile_set = SubResource("TileSet_x1i4j")
 rendering_quadrant_size = 8
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+
+[node name="Soldier-idle" type="Sprite2D" parent="."]
+position = Vector2(-1, -13)
+texture = ExtResource("5_y076o")
+hframes = 6
